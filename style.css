@@ -2,6 +2,16 @@ body {
     font-family: sans-serif;
 }
 
+#cover-page {
+    background-image: url(assets/main-bg.png);
+}
+
+#titles {
+    display: block;
+    text-align: center;
+    color: white;
+}
+
 #countdown {
     text-align: center;
     font-family: sans-serif;
