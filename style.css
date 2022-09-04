@@ -2,6 +2,10 @@ body {
     font-family: sans-serif;
 }
 
+#cover-page {
+    background-image: url();
+}
+
 #countdown {
     text-align: center;
     font-family: sans-serif;
