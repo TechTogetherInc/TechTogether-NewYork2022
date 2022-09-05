@@ -3,7 +3,15 @@ body {
 }
 
 #cover-page {
-    background-image: url(assets/main-bg.png);
+    height: 110vh;
+    background-image: url("./assets/main-bg.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#navbar-color {
+    color: white;
 }
 
 #titles {
@@ -12,17 +20,21 @@ body {
     color: white;
 }
 
+#other-pages {
+    background-image: linear-gradient(#325981, #ABE2F1, #F7F3EB);
+}
+
 #countdown {
     text-align: center;
     font-family: sans-serif;
-    font-weight: 100;
     padding-bottom: 10px;
 }
 
 #cd-header {
     font-weight: 100;
     font-size: 40px;
-    margin: 40px 0px 20px;
+    margin: 0px 0px 10px;
+    padding-top: 80px;
 }
 
 #clockdiv {
@@ -48,6 +60,45 @@ body {
 .smalltext {
     padding-top: 5px;
     font-size: 16px;
+}
+
+.section-padding {
+    padding-top: 100px;
+}
+
+.get-involved-cards {
+    background-color: #F0FCFF;
+    box-shadow: 0px 3px 5px rgb(200, 199, 199);
+    border: none;
+    border-radius: 15px;
+}
+
+.get-involved-buttons {
+    color: white;
+    background-color: rgb(113, 180, 249);
+    border-color: rgb(113, 180, 249);
+}
+
+.get-involved-buttons:hover {
+    color: white;
+    background-color: rgb(86, 164, 243);
+    border-color: rgb(113, 180, 249);
+}
+
+.qa-padding {
+    padding-top: 20px;
+}
+
+.qa {
+    background-color: #6db5c9;
+    border-color: #6db5c9;
+    color: white;
+}
+
+.qa:hover {
+    background-color: #66B6CC;
+    border-color: #66B6CC;
+    color: white;
 }
 
 #sponsor1 {
