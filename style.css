@@ -130,6 +130,24 @@ body {
     min-height: 40px !important;
 }
 
-#mlh {
-    z-index: 1;
+#sponsor-row {
+    display: flex;
+}
+
+#sponsor-col {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+#sponsors {
+    padding-bottom: 30px;
+    padding-top: 70px;
+}
+
+#sponsor-1 {
+    padding-bottom: 50px;
+}
+
+#sponsor-2 {
+    padding-bottom: 70px;
 }
