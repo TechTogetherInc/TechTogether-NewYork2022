@@ -10,7 +10,7 @@ body {
     position: relative;
 }
 
-#navbar-color {
+#navbar-text {
     color: white;
 }
 
@@ -105,6 +105,17 @@ body {
     background-color: #66B6CC;
     border-color: #66B6CC;
     color: white;
+}
+
+.qa:focus {
+    background-color: #66B6CC;
+    border-color: #66B6CC;
+    color: white;
+}
+
+.qa_answer {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.0);
 }
 
 #sponsor1 {
