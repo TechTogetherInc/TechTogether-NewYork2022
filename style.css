@@ -8,7 +8,7 @@ body {
     background-size: cover;
     background-position: center;
     position: relative;
-    margin-top: -50px;
+
 }
 
 #titles {
@@ -118,16 +118,6 @@ body {
 
 #sponsor2 {
     display: inline-block;
-}
-
-.nav-link {
-    color: white;
-}
-
-.navbar {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-    min-height: 40px !important;
 }
 
 #sponsor-row {
