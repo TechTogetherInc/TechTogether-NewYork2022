@@ -117,6 +117,13 @@ body {
     border-radius: 15px;
 }
 
+#byte-involved {
+    position: absolute;
+    left: 130px;
+    max-width: 15%;
+    height: auto;
+}
+
 .get-involved-cards {
     background-color: #F0FCFF;
     box-shadow: 0px 3px 5px rgb(200, 199, 199);
@@ -150,6 +157,17 @@ body {
     background-color: #66B6CC;
     border-color: #66B6CC;
     color: white;
+}
+
+.qa:focus {
+    background-color: #66B6CC;
+    border-color: #66B6CC;
+    color: white;
+}
+
+.qa_answer {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.0);
 }
 
 #sponsor1 {
