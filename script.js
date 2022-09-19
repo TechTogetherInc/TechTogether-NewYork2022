@@ -1,6 +1,6 @@
 
 //Countdown code
-var deadline = new Date("Oct 23, 2022 00:00:00").getTime();
+var deadline = new Date("Nov 12, 2022 00:00:00").getTime();
 
 var x = setInterval(function () {
 
@@ -23,3 +23,4 @@ var x = setInterval(function () {
         document.getElementById("second").innerHTML = '0';
     }
 }, 1000);
+
