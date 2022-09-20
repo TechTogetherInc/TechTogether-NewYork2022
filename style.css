@@ -117,10 +117,17 @@ body {
     border-radius: 15px;
 }
 
+#get-involved-words {
+    position: relative;
+    max-width: 17%;
+    left: 5rem;
+    height: auto;
+}
+
 #byte-involved {
     position: absolute;
-    left: 130px;
-    max-width: 15%;
+    left: 10rem;
+    max-width: 20%;
     height: auto;
 }
 
@@ -141,6 +148,11 @@ body {
     color: white;
     background-color: rgb(86, 164, 243);
     border-color: rgb(113, 180, 249);
+}
+
+.egg {
+    max-width: 4%;
+    height: auto;
 }
 
 .qa-padding {
