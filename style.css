@@ -13,8 +13,14 @@ body {
 #titles {
     display: block;
     text-align: center;
-    color: white;
+    width: 50%;
     line-height: 40px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    border-radius: 50px;
 }
 
 #register-btn {
