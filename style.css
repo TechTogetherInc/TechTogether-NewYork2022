@@ -124,6 +124,13 @@ body {
     left: 45rem;
 }
 
+#egg-drop {
+    position: absolute;
+    max-width: 7%;
+    height: auto;
+    left: 40rem;
+}
+
 #d-on-ice {
     position: relative;
     max-width: 25%;
@@ -246,7 +253,6 @@ body {
 }
 
 .wrapper .tooltip {
-    position: absolute;
     top: 0;
     line-height: 1.5;
     font-size: 14px;
