@@ -272,3 +272,13 @@ body {
     background-color: #6db5c9;
     color: #ffffff;
 }
+
+#content-mlh {
+    position: relative;
+}
+
+#content-mlh img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
