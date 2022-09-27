@@ -137,15 +137,6 @@ body {
     height: auto;
 }
 
-#flying-dino {
-    max-width: 20%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 90px;
-}
-
 #dino-prints {
     position: absolute;
     right: 10rem;
