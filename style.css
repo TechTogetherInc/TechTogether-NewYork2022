@@ -113,7 +113,7 @@ body {
 }
 
 .section-padding {
-    padding-top: 100px;
+    padding-top: 70px;
 }
 
 .theme-cards {
@@ -121,6 +121,27 @@ body {
     box-shadow: 0px 3px 5px rgb(200, 199, 199);
     border: none;
     border-radius: 15px;
+}
+
+#fly-dino {
+    position: relative;
+    max-width: 10%;
+    height: auto;
+    left: 45rem;
+}
+
+#egg-drop {
+    position: absolute;
+    max-width: 7%;
+    height: auto;
+    left: 40rem;
+}
+
+#d-on-ice {
+    position: relative;
+    max-width: 25%;
+    height: auto;
+    left: 67rem;
 }
 
 #get-involved-words {
@@ -133,7 +154,7 @@ body {
 #byte-involved {
     position: absolute;
     left: 10rem;
-    max-width: 20%;
+    max-width: 18%;
     height: auto;
 }
 
@@ -249,7 +270,6 @@ body {
 }
 
 .wrapper .tooltip {
-    position: absolute;
     top: 0;
     line-height: 1.5;
     font-size: 14px;
