@@ -243,6 +243,14 @@ body {
     padding-top: 70px;
 }
 
+#sponsor-1:hover {
+    cursor: pointer;
+}
+
+#sponsor-2:hover {
+    cursor: pointer;
+}
+
 #sponsor-1 {
     padding-bottom: 50px;
 }
