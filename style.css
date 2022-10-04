@@ -396,3 +396,12 @@ body {
         width: 75%;
     }
 }
+
+@media screen and (max-width: 1000px) {
+    #byte-involved {
+        position: absolute;
+        left: 8rem;
+        max-width: 18%;
+        height: auto;
+    }
+}
