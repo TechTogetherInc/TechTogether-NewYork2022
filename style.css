@@ -401,7 +401,58 @@ body {
     #byte-involved {
         position: absolute;
         left: 8rem;
-        max-width: 18%;
+        max-width: 22%;
         height: auto;
+    }
+
+    #get-involved-words {
+        position: relative;
+        max-width: 25%;
+        left: 1.8rem;
+        height: auto;
+    }
+
+    #byte-position {
+        padding-bottom: 7rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #byte-involved {
+        position: absolute;
+        left: 4rem;
+        max-width: 25%;
+        height: auto;
+    }
+
+    #get-involved-words {
+        position: relative;
+        max-width: 30%;
+        left: 1rem;
+        height: auto;
+    }
+
+    #byte-position {
+        padding-bottom: 7rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #byte-involved {
+        position: absolute;
+        left: 3.5rem;
+        max-width: 35%;
+        height: auto;
+    }
+
+    #get-involved-words {
+        position: relative;
+        max-width: 40%;
+        left: 0.5rem;
+        height: auto;
+    }
+
+    #byte-position {
+        padding-bottom: 6.5rem;
     }
 }
