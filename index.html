@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Font Awesome 5.15.1 CSS (social media icons) -->
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <head>
     <meta charset="UTF-8">
@@ -106,8 +105,10 @@
             <div></div>
             <img src="./assets/drop_egg.png" alt="" id="egg-drop">
             <div class="my-5 row">
-                <div class="col-md-3 offset-md-2">
-                    <div class="card theme-cards" style="width: 22rem;">
+                <!--<div class="col-sm-12 col-md-12 col-lg-3 offset-lg-1 offset-md-4">-->
+                <div id="card1" class=" col-xs-11 col-sm-11 col-md-5 offset-md-2 offset-sm-1"
+                    style="width: 22rem; margin-top: 0rem;">
+                    <div class="card about-cards">
                         <div class="card-body">
                             <h5 class="card-title mt-3"><b>About Us</b></h5>
                             <p class="card-text mt-3">TechTogether New York is one of the few gender-focused
@@ -123,8 +124,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 offset-md-1">
-                    <div class="card theme-cards" style="width: 30rem; margin-top: 15rem;">
+                <div class="col-xs-11 col-sm-12 col-md-7 offest-md-2 offset-sm-1"
+                    style="width: 30rem; margin-top: 15rem;">
+                    <div class="card theme-cards">
                         <div class="card-body">
                             <h5 class="card-title mt-3"><b>Frozen in Time: It’s n~ice~ 🧊 to be back!</b></h5>
                             <p class="card-text mt-3">We are excited to welcome you to TechTogether New York 2022,
@@ -420,33 +422,25 @@
             </div>
         </div> -->
 
-
         <!--footer-->
-        <div class="footer row">
-            <div class="wrapper col-5">
-                <a href="https://www.facebook.com/techtogethernewyork" class="icon facebook">
-                    <div class="tooltip">Facebook</div>
-                    <span><i class="fab fa-facebook-f"></i></span>
-                </a>
-                <a href="#" class="icon twitter">
-                    <div class="tooltip">Twitter</div>
-                    <span><i class="fab fa-twitter"></i></span>
-                </a>
-                <a href="https://www.instagram.com/techtogethernewyork/" class="icon instagram">
-                    <div class="tooltip">Instagram</div>
-                    <span><i class="fab fa-instagram"></i></span>
-                </a>
-                <a href="https://www.linkedin.com/company/techtogether-new-york/mycompany/" class="icon linkedin">
-                    <div class="tooltip">Linkedin</div>
-                    <span><i class="fab fa-linkedin"></i></span>
-                </a>
-                Keep in touch! Follow us on social media!
-            </div>
-        </div>
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            <a class="text-white" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">Code of Conduct</a>
 
-        </div>
+        <footer>
+            <div class="footer-bottom">
+                <p>copyright &copy;2022 <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">Code of Conduct</a>
+                </p>
+                <div class="footer-menu">
+                    <ul class="socials">
+                        <li><a href="https://www.instagram.com/techtogethernewyork/"><i class="fa fa-instagram"></i></a>
+                        </li>
+                        <li><a href="https://www.facebook.com/techtogethernewyork"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/company/techtogether-new-york/mycompany/"><i
+                                    class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
     </section>
 
     <!-- Bootstrap script -->
