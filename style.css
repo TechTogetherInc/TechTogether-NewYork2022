@@ -116,6 +116,44 @@ body {
     padding-top: 70px;
 }
 
+
+@media screen and (max-width: 1600px) {
+    #about-us {
+        width: 400px;
+        height: 340px;
+    }
+
+    #intro {
+        margin-top: 20rem;
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #about-us {
+        width: 600px;
+        height: 300px;
+    }
+
+    #intro {
+        margin-top: 50px;
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    #about-us {
+        width: 450px;
+        height: 400px
+    }
+
+    #intro {
+        width: 450px;
+        margin-top: 50px;
+    }
+}
+
+
 .about-cards {
     font-family: Raleway;
     background-color: #F7F3EB;
@@ -140,6 +178,15 @@ body {
     left: 45rem;
 }
 
+@media screen and (max-width: 1377px) {
+    #fly-dino {
+        position: relative;
+        max-width: 140px;
+        height: auto;
+        left: 15rem;
+    }
+}
+
 #egg-drop {
     position: absolute;
     max-width: 7%;
@@ -147,11 +194,29 @@ body {
     left: 40rem;
 }
 
+@media screen and (max-width: 1377px) {
+    #egg-drop {
+        position: relative;
+        max-width: 0px;
+        height: auto;
+        left: 5rem;
+    }
+}
+
 #d-on-ice {
     position: relative;
     max-width: 25%;
     height: auto;
     left: 67rem;
+}
+
+@media screen and (max-width: 1377px) {
+    #d-on-ice {
+        position: fixed;
+        max-width: 350px;
+        height: auto;
+        margin-left: 0px;
+    }
 }
 
 #get-involved-words {
