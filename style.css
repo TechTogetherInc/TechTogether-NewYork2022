@@ -116,7 +116,55 @@ body {
     padding-top: 70px;
 }
 
+
+@media screen and (max-width: 1600px) {
+    #about-us {
+        width: 400px;
+        height: 340px;
+    }
+
+    #intro {
+        margin-top: 20rem;
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #about-us {
+        width: 600px;
+        height: 300px;
+    }
+
+    #intro {
+        margin-top: 50px;
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    #about-us {
+        width: 450px;
+        height: 400px
+    }
+
+    #intro {
+        width: 450px;
+        margin-top: 50px;
+    }
+}
+
+
+.about-cards {
+    font-family: Raleway;
+    background-color: #F7F3EB;
+    box-shadow: 0px 3px 5px rgb(200, 199, 199);
+    border: none;
+    border-radius: 15px;
+}
+
+
 .theme-cards {
+    font-family: Raleway;
     background-color: #F7F3EB;
     box-shadow: 0px 3px 5px rgb(200, 199, 199);
     border: none;
@@ -130,6 +178,15 @@ body {
     left: 45rem;
 }
 
+@media screen and (max-width: 1377px) {
+    #fly-dino {
+        position: relative;
+        max-width: 140px;
+        height: auto;
+        left: 15rem;
+    }
+}
+
 #egg-drop {
     position: absolute;
     max-width: 7%;
@@ -137,11 +194,29 @@ body {
     left: 40rem;
 }
 
+@media screen and (max-width: 1377px) {
+    #egg-drop {
+        position: relative;
+        max-width: 0px;
+        height: auto;
+        left: 5rem;
+    }
+}
+
 #d-on-ice {
     position: relative;
     max-width: 25%;
     height: auto;
     left: 67rem;
+}
+
+@media screen and (max-width: 1377px) {
+    #d-on-ice {
+        position: fixed;
+        max-width: 350px;
+        height: auto;
+        margin-left: 0px;
+    }
 }
 
 #get-involved-words {
@@ -359,7 +434,23 @@ body {
         font-size: 2em;
     }
 
+    .about-cards {
+        padding-right: 30px;
+        padding-left: 20px;
+        width: 400px;
+        margin: 50px;
+    }
+
+    .theme-cards {
+        padding-right: 30px;
+        padding-left: 20px;
+        width: 450px;
+        margin: 30px;
+
+    }
+
 }
+
 
 @media only screen and (min-width: 600px) {
     #titles {
@@ -371,6 +462,42 @@ body {
 
     #cd-header {
         font-size: 2em;
+    }
+}
+
+@media (max-width: 1087px) {
+    .about-cards {
+        padding-right: 30px;
+        padding-left: 20px;
+        width: 450px;
+        margin: 50px;
+    }
+
+    .theme-cards {
+        padding-right: 30px;
+        padding-left: 20px;
+        width: 600px;
+        margin: 30px;
+    }
+}
+
+@media (max-width: 480px) and (min-width: 200px) {
+    .about-cards {
+        padding-right: 5px;
+        padding-left: 5px;
+        width: 300px;
+        margin: 50px;
+    }
+
+    #card1 {
+        padding-right: 500px;
+    }
+
+    .theme-cards {
+        padding-right: 5px;
+        padding-left: 5px;
+        width: 340px;
+        margin: 25px;
     }
 }
 
@@ -392,6 +519,178 @@ body {
 @media only screen and (min-width: 992px) {}
 
 @media only screen and (min-width: 1200px) {}
+
+
+#footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fcfcfc;
+
+}
+
+/*footer{
+    position: static;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+
+    padding-top: 40px;
+    color: #fff;
+}*/
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 rem 0;
+}
+
+.socials li {
+    margin: 0 8px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+
+}
+
+.socials a:hover i {
+    color: rgb(18, 47, 76);
+}
+
+.footer-bottom {
+    background: #45B8CF;
+    width: 100vw;
+    padding: 20px;
+    padding-bottom: 45px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom p a {
+    color: #FFFF;
+    font-size: 16px;
+    text-decoration: underline;
+
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+.footer-menu {
+    float: right;
+
+}
+
+.footer-menu ul {
+    display: flex;
+}
+
+.footer-menu ul li {
+    padding-right: 10px;
+    display: block;
+}
+
+.footer-menu ul li a {
+    color: #FFFF;
+    text-decoration: none;
+}
+
+.footer-menu ul li a:hover {
+    color: #27bcda;
+}
+
+@media (max-width:500px) {
+    .footer-menu ul {
+        display: static;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .footer-bottom p {
+        font-size: 12px;
+    }
+
+    .footer-bottom p a {
+        font-size: 14px;
+    }
+
+    .socials li {
+        margin: 0 5px;
+    }
+
+    .socials a {
+        padding: 3px;
+    }
+
+    .socials a i {
+        font-size: 1.1rem;
+
+    }
+
+    .footer-menu ul li {
+        padding-right: 1px;
+    }
+}
+
+@media (max-width: 395px) {
+    .footer-bottom {
+        padding: 20px;
+        padding-bottom: 80px;
+    }
+
+
+}
 
 @media screen and (max-width: 1000px) {
     .responsive-cards {
